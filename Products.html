@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow Haven Beauty - Products</title>
+<style>
+body { font-family: Arial; background-color: #fff0f5; margin:0; padding:0; text-align:center; }
+header { background-color: #ffb6c1; padding: 15px; }
+nav a { margin: 0 15px; text-decoration:none; color:#444; font-weight:bold; }
+nav a:hover { color:#e60073; }
+h1 { color:#ff69b4; margin-top:20px; }
+.product-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:25px; padding:40px; }
+.product-card { background:white; border-radius:15px; padding:20px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:0.3s; }
+.product-card:hover { transform:translateY(-5px); }
+.product-card img { width:100%; height:200px; object-fit:cover; border-radius:10px; }
+.product-card h3 { color:#ff69b4; margin:15px 0 5px; }
+.product-card p { color:#555; font-size:14px; }
+.price { font-weight:bold; color:#ff1493; margin:10px 0; }
+.btn { display:inline-block; background-color:#ff69b4; color:white; padding:10px 25px; border-radius:25px; text-decoration:none; font-weight:bold; transition:0.3s; }
+.btn:hover { background-color:#ff1493; }
+</style>
+</head>
+<body>
+<header>
+    <img src="glow-haven-logo.png" alt="Glow Haven Beauty Logo" width="80">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Shop Now</a>
+    </nav>
+</header>
+
+<h1>Our Products</h1>
+
+<div class="product-container">
+    <div class="product-card">
+        <img src="lipstick.jpg" alt="Luxury Lipstick">
+        <h3>Luxury Lipstick</h3>
+        <p>Rich color and smooth finish that lasts all day.</p>
+        <div class="price">KES 1,200</div>
+        <a href="checkout.html?product=Luxury+Lipstick&price=1200" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="mascara.jpg" alt="Volumizing Mascara">
+        <h3>Volumizing Mascara</h3>
+        <p>Get bold, full lashes with our smudge-proof mascara.</p>
+        <div class="price">KES 950</div>
+        <a href="checkout.html?product=Volumizing+Mascara&price=950" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="foundation.jpg" alt="Silky Foundation">
+        <h3>Silky Foundation</h3>
+        <p>Flawless coverage that feels light on your skin.</p>
+        <div class="price">KES 1,800</div>
+        <a href="checkout.html?product=Silky+Foundation&price=1800" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="perfume.jpg" alt="Floral Perfume">
+        <h3>Floral Perfume</h3>
+        <p>Enchanting floral scent that stays all day.</p>
+        <div class="price">KES 2,500</div>
+        <a href="checkout.html?product=Floral+Perfume&price=2500" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="jewelry.jpg" alt="Elegant Jewelry">
+        <h3>Elegant Jewelry</h3>
+        <p>Minimalist accessories to complete your glow-up look.</p>
+        <div class="price">KES 3,000</div>
+        <a href="checkout.html?product=Elegant+Jewelry&price=3000" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="skincare.jpg" alt="Glow Skincare Set">
+        <h3>Glow Skincare Set</h3>
+        <p>Hydrate and nourish your skin for a natural glow.</p>
+        <div class="price">KES 2,200</div>
+        <a href="checkout.html?product=Glow+Skincare+Set&price=2200" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="bodylotion.jpg" alt="Body Lotion">
+        <h3>Body Lotion</h3>
+        <p>Soft, hydrated skin all day long with a sweet scent.</p>
+        <div class="price">KES 850</div>
+        <a href="checkout.html?product=Body+Lotion&price=850" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="nailpolish.jpg" alt="Nail Polish Set">
+        <h3>Nail Polish Set</h3>
+        <p>Vibrant shades that last longer and shine brighter.</p>
+        <div class="price">KES 1,000</div>
+        <a href="checkout.html?product=Nail+Polish+Set&price=1000" class="btn">Buy Now</a>
+    </div>
+</div>
+</body>
+</html>
